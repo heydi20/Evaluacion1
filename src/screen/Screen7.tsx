@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
-export const Screen2 = () => {
+export const Screen7 = () => {
   return (
     <View style={styles.container}>
         <Text style={styles.box1}></Text>
@@ -14,36 +14,37 @@ export const Screen2 = () => {
 const styles=StyleSheet.create({
   container: {
     flex: 1,
-    //justifyContent: 'flex-end',
-    //alignItems: 'flex-end',
-    backgroundColor: '#2E3E4E',  
+    backgroundColor: '#2B4A6F',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   box1: {
-    flex:1,
-    fontSize:30,
-    borderWidth:2,
-    borderColor:'white',
     width: 50,
     height: 50,
-    backgroundColor: '#6C63FF',  
+    borderWidth:2,
+    flexDirection:'row',
+    borderColor:'white',
+    fontSize:30,
+    backgroundColor: '#4C5DCE',
+    marginBottom: 10, 
   },
   box2: {
-    flex:1,
-    fontSize:30,
-    borderWidth:2,
-    borderColor:'white',
     width: 50,
     height: 50,
-    backgroundColor: '#FFA726', 
+    borderWidth:2,
+    flexDirection:'row',
+    borderColor:'white',
+    fontSize:30,
+    backgroundColor: '#F1A23E',
+    marginBottom: 10, 
   },
   box3: {
-    flex:1,
-    borderWidth:2,
-    fontSize:30,
-    borderColor:'white',
-    width: '100%',
+    width: 50,
     height: 50,
-    backgroundColor: '#00C4CC',  
+    borderWidth:1,
+    flexDirection:'row',
+    borderColor:'white',
+    fontSize:30,
+    backgroundColor: '#31D7E9',
   },
-
-})
+});
